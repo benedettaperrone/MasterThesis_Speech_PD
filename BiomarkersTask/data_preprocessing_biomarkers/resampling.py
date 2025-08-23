@@ -1,3 +1,7 @@
+# This script is adapted from the Neuro-Logical/speech repository:
+# https://github.com/Neuro-Logical/speech/tree/main/Multilingual_Evaluation/data_preprocessing/convert_to_16k.sh
+# Modifications were made to fit macOS and project-specific requirements.
+
 import os
 import json
 import librosa

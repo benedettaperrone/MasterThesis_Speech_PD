@@ -1,3 +1,7 @@
+# This script is adapted from the Neuro-Logical/speech repository:
+# https://github.com/Neuro-Logical/speech/tree/main/Multilingual_Evaluation/data_preprocessing/get_speech_transcripts.py
+# Modifications were made to fit macOS and project-specific requirements.
+
 import os
 from pathlib import Path
 import whisper
