@@ -1,3 +1,7 @@
+# Requirements for data preprocessing adapted from Favaro et al., 2023
+# Original repository: https://github.com/Neuro-Logical/speech/tree/main/Multilingual_Evaluation/requirements.txt
+# Some packages may not be required for this project.
+
 en-core-web-sm==3.2.0
 es-core-news-sm==3.2.0
 de-core-news-sm==3.2.0
