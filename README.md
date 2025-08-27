@@ -47,6 +47,8 @@ Scripts in `WER_CER` automate this calculation for all datasets used.
 
 This task focuses on classifying audio containing vowels using transformer models.
 
+
+
 ### 2.1 Data Preprocessing
 
 Audio is prepared for the transformers models in the folder `data_preprocessing_classification`. This includes steps such as:
