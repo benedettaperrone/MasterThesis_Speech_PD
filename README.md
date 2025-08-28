@@ -10,6 +10,22 @@ This work explores both **automatic speech recognition errors** (WER/CER) and **
 
 ---
 
+## 🗂 Datasets
+
+This study utilized three datasets, **which are not included in this repository**:  
+
+1. **Molinette Dataset** – Recordings from 14 PD patients performing sustained vowels, proverbs, and monologues. Data include ON and OFF phases for six patients. *(Private dataset)*
+
+2. **PC-GITA Dataset** – Recordings from 50 PD patients and 50 healthy controls, including vowels, DDK tasks, sentences, and monologues. Data were collected in a noise-controlled environment at Clínica Noel, Medellín, Colombia. This dataset is available on request from the authors.  
+   Citation: [Orozco et al., 2014](https://www.researchgate.net/publication/265592171_New_Spanish_speech_corpus_database_for_the_analysis_of_people_suffering_from_Parkinson's_disease/citations)
+
+3. **Bari Dataset** – Recordings from 28 PD patients and 22 healthy controls performing vowels, syllables, and phonemically balanced text reading. This dataset can be requested from the authors.  
+   Citation: [Dimauro & Girardi, 2017](https://ieee-dataport.org/open-access/italian-parkinsons-voice-and-speech)
+
+The datasets were used for deep learning classification (sustained vowels), WER and CER analysis (sentences, proverbs, and text), and statistical analysis (UPDRS scores). Detailed descriptions, including demographics, recording protocols, and tasks, are in the thesis.
+
+---
+
 ## 📂 Repository Structure
 
 ### 1. Biomarkers Task
@@ -108,10 +124,12 @@ WER and CER can then be computed using the Jupyter notebooks in WER_CER/.
 
 # Open and run the desired transformer notebook
 jupyter notebook ClassificationTask/ViT.ipynb
+```
+
 Other models (ViT_parallel.ipynb, AST.ipynb, AST_parallel.ipynb) can be run similarly.
 Each notebook contains preprocessing, training, and evaluation steps.
 
-```
+
 
 ## 📊 Results
 Significant differences in WER and CER were found between PD patients and controls, correlating with UPDRS scores.
