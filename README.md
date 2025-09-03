@@ -150,12 +150,3 @@ Benedetta Perrone
 Master’s Thesis in Biomedical Engineering
 Politecnico di Torino – A.Y. 2023/2024
 
-@article{favaro2023multilingual,
-  title={Multilingual evaluation of interpretable biomarkers to represent language and speech patterns in Parkinson's disease},
-  author={Favaro, Anna and Moro-Vel{\'a}zquez, Laureano and Butala, Ankur and Motley, Chelsie and Cao, Tianyu and Stevens, Robert David and Villalba, Jes{\'u}s and Dehak, Najim},
-  journal={Frontiers in Neurology},
-  volume={14},
-  pages={1142642},
-  year={2023},
-  publisher={Frontiers}
-} 
