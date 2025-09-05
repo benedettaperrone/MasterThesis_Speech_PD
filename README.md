@@ -99,6 +99,7 @@ conda activate speechpd
 # Install dependencies
 pip install -r requirements.txt
 ```
+> **Note:** The transformer notebooks were run on **Google Colab** to take advantage of GPU acceleration. They are designed for Colab but can also be executed locally if a GPU is available.
 
 
 
@@ -128,6 +129,9 @@ jupyter notebook ClassificationTask/ViT.ipynb
 
 Other models (ViT_parallel.ipynb, AST.ipynb, AST_parallel.ipynb) can be run similarly.
 Each notebook contains preprocessing, training, and evaluation steps.
+
+> **Tip:** For best performance, open the notebooks directly in **Google Colab** (with GPU enabled). They were developed and tested in Colab for this reason.
+
 
 
 

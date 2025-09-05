@@ -21,7 +21,6 @@ output_directory = "/path/to/save/resampled/audio"
 
 # Target sample rate for resampling
 target_sr = 16000
-# ---------------------------------------------------
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_directory, exist_ok=True)
@@ -49,30 +48,30 @@ with open(json_path, 'r') as file:
 
 # Loop through each entry in the JSON
 for idx, entry in enumerate(data):
-    # Check if audio path exists in the entry
+    
     if 'audio' not in entry:
         print(f"Skipping entry {idx}: no audio path found")
         continue
 
-    # Construct full path to the audio file
+    
     audio_path = os.path.join(input_base_path, entry['audio'])
 
     try:
-        # Load original audio with its native sample rate
+        
         audio, sr = librosa.load(audio_path, sr=None)
 
-        # Resample audio to the target sample rate
+        
         resampled_audio = librosa.resample(audio, orig_sr=sr, target_sr=target_sr)
 
-        # Save resampled audio to the output directory
+        
         output_file_path = os.path.join(output_directory, os.path.basename(audio_path))
         sf.write(output_file_path, resampled_audio, target_sr)
 
-        # Print progress
+        
         print(f"Processed file {idx + 1}/{len(data)}: {os.path.basename(audio_path)}")
 
-        # Optionally plot waveforms for a few random examples
-        if np.random.rand() < min(3 / len(data), 1):  # roughly 3 random examples
+        
+        if np.random.rand() < min(3 / len(data), 1):  
             plot_waveforms(audio, resampled_audio, sr, target_sr, os.path.basename(audio_path))
 
     except Exception as e:
