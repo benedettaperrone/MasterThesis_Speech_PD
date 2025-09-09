@@ -144,10 +144,18 @@ Explainability methods (heatmaps on Mel-spectrograms) were explored for highligh
 
 For detailed results, refer to the full thesis.
 
+
 ## 📚 References
-Favaro, A., Moro-Velázquez, L., Butala, A., Motley, C., Cao, T., Stevens, R. D., Villalba, J., & Dehak, N. (2023).
-Multilingual evaluation of interpretable biomarkers to represent language and speech patterns in Parkinson's disease.
+Favaro, A., Moro-Velázquez, L., Butala, A., Motley, C., Cao, T., Stevens, R. D., Villalba, J., & Dehak, N. (2023).  
+Multilingual evaluation of interpretable biomarkers to represent language and speech patterns in Parkinson's disease.  
 Frontiers in Neurology, 14:1142642.
+
+Orozco, J. R., Arias-Londoño, J. D., Vargas-Bonilla, J., González-Rátiva, M., & Noeth, E. (2014).  
+New Spanish speech corpus database for the analysis of people suffering from Parkinson’s disease.  
+
+Dimauro, G., & Girardi, F. (2019).  
+Italian Parkinson's Voice and Speech. IEEE Dataport. doi:10.21227/aw6b-tg17
+
 
 ## 👩‍🎓 Author
 Benedetta Perrone
