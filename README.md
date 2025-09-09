@@ -147,7 +147,7 @@ For detailed results, refer to the full thesis.
 ## 📚 References
 Favaro, A., Moro-Velázquez, L., Butala, A., Motley, C., Cao, T., Stevens, R. D., Villalba, J., & Dehak, N. (2023).
 Multilingual evaluation of interpretable biomarkers to represent language and speech patterns in Parkinson's disease.
-Frontiers in Neurology, 14:1142642. Link
+Frontiers in Neurology, 14:1142642.
 
 ## 👩‍🎓 Author
 Benedetta Perrone
